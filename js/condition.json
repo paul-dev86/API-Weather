@@ -1,0 +1,112 @@
+{
+    "weather": [
+        {
+            "icon": "01d",
+            "background": "../img/background/clear.png",
+            "image": "img/weather/sun.png",
+            "svg": "img/svg/weather/clear-icon.svg"
+        },
+        {
+            "icon": "01n",
+            "background": "../img/background/night-clear.png",
+            "image": "img/weather/night-clear.png",
+            "svg": "img/svg/weather/night-clear-icon.svg"
+        },
+        {
+            "icon": "02d",
+            "background": "../img/background/sun-clouds.png",
+            "image": "img/weather/sun-clouds.png",
+            "svg": "img/svg/weather/sun-clouds-icon.svg"
+        },
+        {
+            "icon": "02n",
+            "background": "../img/background/night-clouds.png",
+            "image": "img/weather/night-clouds.svg",
+            "svg": "img/svg/weather/night-clouds-icon.svg"
+        },
+        {
+            "icon": "03d",
+            "background": "../img/background/clouds.png",
+            "image": "img/weather/scattered-clouds.png",
+            "svg": "img/svg/weather/clouds-icon.svg"
+        },
+        {
+            "icon": "03n",
+            "background": "../img/background/night-clouds.png",
+            "image": "img/weather/night-s-clouds.png",
+            "svg": "img/svg/weather/night-clouds-icon.svg"
+        },
+        {
+            "icon": "04d",
+            "background": "../img/background/clouds.png",
+            "image": "img/weather/clouds.png",
+            "svg": "img/svg/weather/clouds-icon.svg"
+        },
+        {
+            "icon": "04n",
+            "background": "../img/background/night-clouds.png",
+            "image": "img/weather/clouds.png",
+            "svg": "img/svg/weather/clouds-icon.svg"
+        },
+        {
+            "icon": "09d",
+            "background": "../img/background/rain.png",
+            "image": "img/weather/drizzle.png",
+            "svg": "img/svg/weather/drizzle-icon.svg"
+        },
+        {
+            "icon": "09n",
+            "background": "../img/background/night-rain.png",
+            "image": "img/weather/drizzle.png",
+            "svg": "img/svg/weather/drizzle-icon.svg"
+        },
+        {
+            "icon": "10d",
+            "background": "../img/background/rain.png",
+            "image": "img/weather/rain.png",
+            "svg": "img/svg/weather/rain-icon.svg"
+        },
+        {
+            "icon": "10n",
+            "background": "../img/background/night-rain.png",
+            "image": "img/weather/night-rain.png",
+            "svg": "img/svg/weather/rain-icon.svg"
+        },
+        {
+            "icon": "11d",
+            "background": "../img/background/thunderstorm.png",
+            "image": "img/weather/thunderstorm.png",
+            "svg": "img/svg/weather/thunderstorm-icon.svg"
+        },
+        {
+            "icon": "11n",
+            "background": "../img/background/night-rain.png",
+            "image": "img/weather/thunderstorm.png",
+            "svg": "img/svg/weather/thunderstorm-icon.svg"
+        },
+        {
+            "icon": "13d",
+            "background": "../img/background/snow.png",
+            "image": "img/weather/snow.png",
+            "svg": "img/svg/weather/snow-icon.svg"
+        },
+        {
+            "icon": "13n",
+            "background": "../img/background/snow.png",
+            "image": "img/weather/snow.png",
+            "svg": "img/svg/weather/snow-icon.svg"
+        },
+        {
+            "icon": "50d",
+            "background": "../img/background/fog.png",
+            "image": "img/weather/fog.png",
+            "svg": "img/svg/weather/fog-icon.svg"
+        },
+        {
+            "icon": "50n",
+            "background": "../img/background/fog.png",
+            "image": "img/weather/fog.png",
+            "svg": "img/svg/weather/fog-icon.svg"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700&display=swap');
+
+:root {
+    --br-color: #b9b9b9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--br-color);
+}
+
+.weather-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    color:#161616;
+    font-size: 1.3rem;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #e48101;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.weather-link:hover {
+    background-color: #c5c5c5;
+    border-bottom: 2px solid #e48b18;
+}
+
+.weather-link img {
+    width: 22px;
+    padding-right: 3px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    width: 350px;
+    height: 650px;
+    background-image: url("../img/background/sun-clouds.png");
+    border-radius: 10px;
+    box-shadow: 5px 2px 15px  rgba(0, 0, 0, 0.45);
+}
+
+.select-city {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 3rem;
+}
+
+.select-city input {
+    border: none;
+    background-color: #fcf5f5;
+    color: gray;
+    width: 12rem;
+    height: 3rem;
+    padding-left: 8px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.select-city button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: #fcf5f5;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.select-city button:hover {
+    background-color: #dfd8d8;
+}
+
+.select-city button img {
+    width: 20px;
+    height: 20px;
+}
+
+.weather-pic {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9.5rem 6rem;
+}
+
+.temp-city {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fcf5f5;
+}
+
+.temp-city .temp {
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;
+}
+
+.temp-city .city {
+    padding-left: 10px;
+}
+
+.data {
+    position:absolute;
+    display: flex;
+    justify-items: auto;
+    margin: 30rem 1.5rem;
+}
+
+.wind {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.data .wind img {
+    width: 50px;
+    height: 50px;
+}
+
+.data .wind h3 {
+    padding-left: 10px;
+    color: #fcf5f5;
+}
+
+.humidity {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.data .humidity img {
+    width: 45px;
+    height: 45px;
+}
+
+.data .humidity h3 {
+    padding-left: 10px;
+    color: #fcf5f5;
+}

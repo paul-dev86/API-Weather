@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>API Weather</title>
+</head>
+<body>
+    <br>
+    <a href="#">
+        <button type="submit" class="weather-link">
+            <img id="weather-icon" src="img/svg/weather/clear-icon.svg"><a class="weather-data">-- °C Berlin</a>
+        </button>
+    </a>
+    <div class="container">
+        <div class="select-city">
+            <input type="text" placeholder="Stadt">
+            <button type="submit"><img src="img/svg/search-icon.svg"></button>
+        </div>
+        <div class="weather-pic">
+            <img class="selected-pic" src="img/weather/sun.png">
+        </div>
+        <div class="temp-city">
+            <h1 class="temp">--</h1>
+            <h2>° C</h2>
+            <h1 class="city"> Stadt</h1>
+        </div>
+        <div class="data">
+            <div class="wind">
+                <img src="img/svg/weather/wind-icon.svg">
+                <h3 class="wind-speed"> --</h3>
+            </div>
+            <div class="humidity">
+                <img src="img/svg/weather/drop-humidity-icon.svg">
+                <h3 class="hum"> --</h3>
+            </div>
+        </div>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
